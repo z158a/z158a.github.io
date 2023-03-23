@@ -3,20 +3,41 @@ margin:6rem 6rem;
 font-family: helvetica, sans-serif;
 }
 
-h1, h2 {
-letter-spacing: -0.03em;
-}
-
 h1 {
-font-size: 48px;
+font-size: 3.25rem;
 font-weight: bold;
 
 margin-bottom:24px;
 }
 
 h2 {
-font-size: 30px;
+font-size: 2rem;
 font-weight: 300;
+margin-bottom:3.5rem;
+}
+
+h3 {
+font-size: 1.4rem;
+font-weight: bold;
+margin-bottom:1.5rem;
+}
+
+.table {
+border:0;
+font-size: 1.2rem;
+font-weight:300;
+margin-bottom:2.5rem;
+line-height:1.6rem;
+}
+
+.table td {
+padding-top:0;
+padding-bottom:.7rem;
+}
+
+.table .date {
+width:6rem;
+vertical-align:top;
 }
 
 a, a:visited {
